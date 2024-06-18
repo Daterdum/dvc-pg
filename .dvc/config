@@ -1,5 +1,5 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = s3://localhost:9000/def-storage/
+    url = s3://def-storage/
     endpointurl = http://localhost:9000/
