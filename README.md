@@ -24,8 +24,13 @@ Params for s3 setup in dvc - https://dvc.org/doc/user-guide/data-management/remo
 ## Features
 
 ### Metrics
-- https://dvc.org/doc/command-reference/metrics
-dvc metrics show
-dvc metrics diff
+https://dvc.org/doc/command-reference/metrics
+- dvc metrics show
+- dvc metrics diff
 
-### 
+### Params
+https://dvc.org/doc/command-reference/params
+- dvc params show
+- dvc params show
+
+### Plots
