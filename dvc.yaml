@@ -12,8 +12,9 @@ artifacts: # https://dvc.org/doc/user-guide/project-structure/dvcyaml-files#arti
 metrics: # https://dvc.org/doc/command-reference/metrics
 - data/metrics.json
 params: # https://dvc.org/doc/command-reference/params
-- data/params.yaml
-- data/params.json
+- data/params_dir/params.yaml
+- data/params_dir/params.json
+- data/params_dir/params.py
 plots: # https://dvc.org/doc/command-reference/plots
 - regression_hist.csv:
     y: mean_squared_error
