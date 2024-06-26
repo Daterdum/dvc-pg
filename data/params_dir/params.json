@@ -1,0 +1,6 @@
+{
+  "params_json": {
+    "json_param_1": "val_1",
+    "json_param_2": ["array_val_1", "array_val_2"]
+  }
+}

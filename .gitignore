@@ -2,3 +2,5 @@ creds
 .idea/
 err.html
 test/
+.venv/
+minio-dev.yaml

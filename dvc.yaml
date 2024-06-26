@@ -1,0 +1,32 @@
+artifacts: # https://dvc.org/doc/user-guide/project-structure/dvcyaml-files#artifacts
+  example_artifact_id_name: # artifact ID (name)
+    path: data/artifact.txt
+    type: model
+    desc: Some description to artifact
+    labels:
+    - label_1
+    - label_2
+    - test
+    meta:
+      framework: pytorch
+metrics: # https://dvc.org/doc/command-reference/metrics
+- data/metrics.json
+params: # https://dvc.org/doc/command-reference/params
+- data/params.yaml
+- data/params.json
+plots: # https://dvc.org/doc/command-reference/plots
+- regression_hist.csv:
+    y: mean_squared_error
+- classifier_hist.csv:
+    y: [acc, loss]
+stages: # https://dvc.org/doc/command-reference/stage/add
+  run:
+    cmd: python run.py
+    deps:
+    - data/stages/rows.txt
+    outs:
+    - data/stages/columns.txt
+    params:
+    - params.json
+    - yaml_param
+    - yaml_param_list
