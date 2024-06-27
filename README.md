@@ -34,3 +34,5 @@ https://dvc.org/doc/command-reference/params
 - dvc params show
 
 ### Plots
+- dvc plots show
+- dvc plots diff
