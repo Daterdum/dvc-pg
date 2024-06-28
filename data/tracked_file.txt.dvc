@@ -1,5 +1,5 @@
 outs:
-- md5: 38008636134a198989c78a904c1cb842
-  size: 43
+- md5: a5a360f7f34dcd0b53a373f44e1b72c4
+  size: 67
   hash: md5
   path: tracked_file.txt
