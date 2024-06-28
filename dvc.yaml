@@ -27,7 +27,7 @@ stages: # https://dvc.org/doc/command-reference/stage/add
     - data/stages/rows.txt
     outs:
     - data/stages/columns.txt
-    params:
-    - params.json
-    - yaml_param
-    - yaml_param_list
+#    params:
+#    - params.json
+#    - params.yaml
+#    - yaml_param_list
