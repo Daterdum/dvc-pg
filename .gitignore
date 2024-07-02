@@ -4,3 +4,4 @@ err.html
 test/
 .venv/
 minio-dev.yaml
+*.env

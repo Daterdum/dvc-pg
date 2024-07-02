@@ -1,7 +1,14 @@
 from dvc import api as dvc_api
 
-if __name__ == '__main__':
-    print("Doing something")
+
+def main():
     params = dvc_api.params_show()
-    dvc_api.artifacts.artifacts_show(name="example_artifact_id_name")
-    print(f"params: {params}")
+    print(params)
+    print(dvc_api.artifacts_show('data/artifact.txt.dvc'))
+
+
+
+if __name__ == '__main__':
+    print("Start")
+    main()
+    # dvc_api.artifacts.artifacts_show(name="example_artifact_id_name")
