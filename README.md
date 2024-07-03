@@ -1,7 +1,8 @@
 # dvc-pg
 
 ### Init
-pip install dvc
+- pip install dvc
+- pip install dvc_s3
 
 *git init*
 - dvc init
@@ -23,6 +24,8 @@ Example
 - git add ./data/tracked_file.bin.dvc ./data/.gitignore
 - git push origin main
 - dvc push
+
+- dvc get https://github.com/Daterdum/dvc-pg.git data/tracked_file.txt --rev=0.0.1
 
 
 ## Useful links
