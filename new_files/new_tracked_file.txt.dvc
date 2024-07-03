@@ -1,0 +1,5 @@
+outs:
+- md5: 552e21cd4cd9918678e3c1a0df491bc3
+  size: 9
+  hash: md5
+  path: new_tracked_file.txt
